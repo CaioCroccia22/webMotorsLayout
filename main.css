@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 .container {
     max-width: 1024px;
     width: 100%;
@@ -27,6 +31,7 @@ header > .container{
 nav {
     background-color: #575fcf;
     padding: 16px 0;
+    display: none;
 }
 
 nav li{
@@ -43,11 +48,12 @@ nav li a{
     text-decoration: none;
 }
 
-.menu-hambuguer{
+.menu-hamburguer{
     width: 32px;
+    cursor: pointer;
 }
 
-.menu-hambuguer span{
+.menu-hamburguer span{
     height: 2px;
     width: 100%;
     background-color: #fff;
