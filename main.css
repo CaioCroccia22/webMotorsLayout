@@ -62,3 +62,34 @@ nav li a{
 }
 
 
+.container-flex{
+    display: flex;
+}
+
+#about-shop img{
+    width: 400px;
+    margin-right: 24px;
+
+
+}
+
+section{
+    padding: 48px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+.auto-list li{
+    list-style: none;
+    max-width: 30%;
+}
+
+.auto-list img{
+    max-width: 100%;
+}
+
+.auto-list li h3{
+    margin: 16px 0;
+}
