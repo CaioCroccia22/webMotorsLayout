@@ -99,7 +99,7 @@ section h2{
     margin: 0 5%;
 }
 
-.auto-list li button{
+button{
     display: block;
     width: 100%;
     padding: 8px;
@@ -123,3 +123,33 @@ section h2{
     color: #ccc;
     font-size: 14px;
 }
+
+.form-campo{
+    margin-bottom: 16px;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+.form-campo textarea{
+    resize: none;
+    height: 120px;
+}
+
+form{
+    max-width: 360px;
+}
+
+form button{
+    max-width: 120px;
+}
+
