@@ -84,6 +84,7 @@ section h2{
 .auto-list li{
     list-style: none;
     max-width: 30%;
+    margin-bottom: 24px;
 }
 
 .auto-list img{
@@ -92,4 +93,33 @@ section h2{
 
 .auto-list li h3{
     margin: 16px 0;
+}
+
+.item{
+    margin: 0 5%;
+}
+
+.auto-list li button{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+
+}
+
+.price{
+    display: block;
+    margin: 16px;
+}
+
+.price del{
+    color: #ccc;
+    font-size: 14px;
 }
