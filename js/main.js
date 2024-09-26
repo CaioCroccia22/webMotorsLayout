@@ -43,7 +43,7 @@ $(document).ready(function(){
     $('.auto-list button').click(function() {
         const destiny = $('#contato');
 
-        const nomeVeiculo = ($(this).paren().find('h3').text());
+        const nomeVeiculo = ($(this).parent().find('h3').text());
 
         $('#veiculo-interesse').val(nomeVeiculo)
 
